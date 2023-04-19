@@ -126,62 +126,7 @@ internal class Class2
                 }
                 break;
         }
-        //DigikalaContext context = new DigikalaContext(@"DataSet\orders.csv");
-        //DigikalaOperation op = new DigikalaOperation(context.digikalas);
-
-        //Console.Write("\nyour Month is: ");
-        //int Month = Convert.ToInt32(Console.ReadLine());
-        //foreach (var item in op.AllSalesByYear(Month))
-        //{
-        //    Console.WriteLine(item);
-        //    Console.WriteLine("\n-----------------");
-        //}
-
-        //Console.WriteLine("IF you want creat a file and paste information in it press F");
-        //string file = Console.ReadLine();
-
-        //if (file.ToUpper() == "F")
-        //{
-
-        //    using (StreamWriter write = new StreamWriter(@"all_Date_Month\" + Month + ".csv"))
-        //    {
-        //        using (StreamReader read = new StreamReader(@"DataSet\orders.csv"))
-        //        {
-        //            while (!read.EndOfStream)
-        //            {
-        //                string lines = read.ReadLine();
-        //                string Month2 = Month + "-";
-        //                if (lines.Contains(Convert.ToString(Month2)))
-        //                {
-        //                    write.WriteLine(lines);
-        //                }
-        //            }
-        //            Console.WriteLine($"done\ncreat a new file named {file} in deboug directory");
-        //        }
-
-        //    }
-
-        //switch (cont2.ToUpper())
-        //{
-        //    case "A":
-
-        //        op2.Sell_sum_by_Month(); ////
-        //        break;
-
-        //    case "B":
-        //        if (cont2.ToUpper() == "B")
-        //        {
-        //            Console.Write("\nyour year is: ");
-        //            int Month_sum = Convert.ToInt32(Console.ReadLine());
-        //            Console.WriteLine(op.SumSalesByYear(Month_sum));
-
-        //            Console.WriteLine("\n-------------------------------------------------------------------");
-
-        //        }
-        //        break;
-        //}
-
-        //}
+       
     }
 
     public void Sell_sum_by_Year()
