@@ -189,22 +189,3 @@ Console.ResetColor();
 
 
 
-
-/*
-foreach (var item in op.AllSalesByMonth(12))
-{
-    Console.WriteLine(item);
-}
-Console.WriteLine(op.SumSalesByMonth(12));
-*/
-
-
-/*
-foreach (var item in op.AllSalesByYear(2016))
-{
-    Console.WriteLine(item);
-
-}
-Console.WriteLine("===================");
-Console.WriteLine(op.SumSalesByYear(2015));
-*/
